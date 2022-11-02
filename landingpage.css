@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image:url(images/bg-header-desktop.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.logo{
+    position: relative;
+    text-align: center;
+    top:3rem;
+}
+.titulo, .ptitulo{
+   position: relative;
+    text-align: center;
+    top: 4rem;
+
+}
+.buttons{
+    position: relative;
+    top: 7rem;
+    text-align: center;
+    
+}
+.btnios{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color:hsl(171, 66%, 44%);
+    box-shadow:  0px 2px 19px hsl(171, 66%, 44%);
+}
+.btnmac{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-left: 1.5rem;
+    border: none;
+    color: white;
+    background-color:hsl(233, 100%, 69%) ;
+    box-shadow: 0px 2px 19px hsl(233, 100%, 69%) ;
+}
+.beneficios{
+    position: relative;
+    text-align: center;
+    top: 9rem;
+}
+.computer{
+    float: left;
+    margin-right: 7rem;
+    margin-top: 3.4rem;
+}
+.beneficios2{
+    position: relative;
+    text-align: left;
+    height: 40rem;
+    line-height: 2rem;
+    margin-top: 6rem;
+}
+.h3beneficios{
+
+}
+.pbeneficios{
+    margin-bottom: 6rem;
+    
+}
+
+.access{
+   display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.paccess{
+
+   
+
+}
+.devices{
+ position: relative;
+ text-align: center;
+
+}
+.boots{
+    position: relative;
+    top:10rem;
+    text-align: center;
+}
+.tools{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    top:10rem;
+    gap: 2rem;
+    
+}
+.list{
+    text-align: center;
+    width: 20rem;
+    
+ 
+}
+.text{
+    text-align: center;
+    width: 20rem;
+
+}
+.preview{
+    text-align: center;
+    width: 20rem;
+
+}
+.empresas{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 15rem;
+    height: 2rem;
+    
+}
+.clipboard{
+    position: relative;
+    top: 20rem;
+    text-align: center;
+}
+footer{
+    position: relative;
+    top:25rem;  
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #e4dcdc;
+
+}
+ul{
+    list-style: none;
+    flex-direction: row;
+    line-height: 2rem;
+}
+.logofooter{
+   position: inherit;
+    width: 3rem;
+    left: 19rem;
+    top: 5rem;
+}
+.imagenesfooter{
+    position: relative;
+    float: right;
+    bottom: 4.5rem;
+   right: 5rem;
+}
+.logos{
+    margin: 1rem;
+}
+@media (max-width:1024px){
+    .computer{
+        width: 50%;
+        height: 550px;
+    }
+    .logofooter{
+       left: 4rem;
+       
+    }
+    .imagenesfooter{
+        right: inherit;
+    }
+}
+@media (max-width:768px){
+   *{margin: 0;
+padding:0;
+}
+    .computer{
+        width: 45%;
+        height: 420px;
+        margin-bottom: 8rem;
+        margin-top: 8rem;
+    }
+    .logofooter{
+       width: 2rem;
+        left: 4rem;
+        top:3.2rem;
+       
+    }
+    .imagenesfooter{
+        right: inherit;
+    }
+  .devices{
+    width: 50%;
+  }
+  .tools{
+    margin-top: 3rem;
+  }
+  .list, .text , .preview{
+    width: 10rem;
+  }
+  .btnios, .btnmac{
+    margin-top: 2rem;
+  }
+}
+@media (max-width:376px){
+    *{margin: 0;
+        padding:0;
+        }
+    .computer{
+        width: 80vw;
+        height: auto;
+        margin-left: 2rem;
+        
+}
+.beneficios2, .pbeneficios{
+    text-align: center;
+    margin: 1rem;
+}
+.access{
+    position: relative;
+   top:20rem;
+   text-align: center;
+
+}
+.devices{
+    width: 90vw;
+}
+.boots{
+    top:40rem;
+}
+.tools{
+    top:41rem;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    top:75rem;
+}
+.empresas{
+    top:55rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.clipboard{
+    top:70rem;
+}
+.lista{
+    flex-direction: column;
+}
+.logofooter{
+    left:17rem;
+    top: 10rem;
+}
+}
